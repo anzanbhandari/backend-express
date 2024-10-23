@@ -3,15 +3,15 @@ import mongooseAggregatePaginate from "mongoose-aggregate-paginate-v2";
 const videoSchema = new Schema (
     {
         videoFile: {
-            type: String, //clodinary url
+            type: String, //cloudinary url
             required: true
         },
         thumbnail: {
-            type: String, //clodinary url
+            type: String, //cloudinary url
             required: true
         },
         title: {
-            type: String, //clodinary url
+            type: String, //cloudinary url
             required: true
         },
         description: {
